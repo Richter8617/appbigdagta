@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>Soporte en Línea</h1>
+<div mat-dialog-content>
+    <h3>¿En qué podemos ayudarte?</h3>
+    <div class="chat">
+        <div *ngFor="let message of messages; trackBy:identify">
+            <label class="helper">{{ message.user }}:</label>
+            <span class="message">{{ message.message }}</span>
+        </div>
+    </div>
+    <div class="message-input">
+        <mat-form-field class="input" appearance="fill">
+            <input matInput type="text" placeholder="Ingresar mensaje" [(ngModel)]="message" />
+        </mat-form-field>
+        <div>
+            <button mat-flat-button color="warn" (click)="addMessage()">Enviar</button>
+
+        </div>
+    </div>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="primary" mat-dialog-close>Finalizar</button>
+</div>

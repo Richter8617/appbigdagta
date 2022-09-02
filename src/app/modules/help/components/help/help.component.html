@@ -1,0 +1,23 @@
+<div class="header">
+    <div>
+        <h1>¿Cómo podemos ayudarte?</h1>
+    </div>
+</div>
+<div class="container form">
+    <mat-card>
+        <div class="container">
+            <div>
+                <h1>Contáctanos</h1>
+            </div>
+            <mat-form-field appearance="fill">
+                <mat-label>Correo</mat-label>
+                <input matInput type="email"  placeholder="Ingresa tu correo" [(ngModel)]="email" />
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Mensaje</mat-label>
+                <textarea matInput placeholder="Ingresa tu mensaje" [(ngModel)]="message"></textarea>
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="send($event)">Enviar</button>
+        </div>
+    </mat-card>
+</div>

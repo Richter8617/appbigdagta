@@ -1,0 +1,46 @@
+<div class="header">
+    <div>
+        <h1>¿Deseas contratar nuestros servicios?</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="description">
+        <div>
+            <img [src]="image">
+        </div>
+        <div>
+            <p>{{ messageDescription }}</p>
+        </div>
+    </div>
+    <div>
+        <mat-card>
+            <div class="form">
+                <div>
+                    <h1>Realizar Compra</h1>
+                </div>
+                <mat-form-field appearance="fill">
+                    <mat-label>Nombre</mat-label>
+                    <input matInput type="text"  placeholder="Ingresa tu nombre" [(ngModel)]="name" />
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Documento</mat-label>
+                    <input matInput type="number"  placeholder="Ingresa tu documento" [(ngModel)]="document" />
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Correo</mat-label>
+                    <input matInput type="email"  placeholder="Ingresa tu correo" [(ngModel)]="email" />
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Número de tarjeta de Crédito</mat-label>
+                    <input matInput type="number"  placeholder="Ingresa tu número de tarjeta de crédito" [(ngModel)]="creditCard" />
+                </mat-form-field>
+                <div>
+                    <button mat-raised-button color="primary" (click)="pay($event)">Realizar Pago</button>
+                    <button mat-raised-button color="secondary" (click)="openDialog()">Ayuda personalizada</button>
+
+                </div>
+            </div>
+        </mat-card>
+    </div>
+
+</div>
