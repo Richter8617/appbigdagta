@@ -18,7 +18,7 @@ export class PurchaseComponent implements OnInit {
     },
     {
       title: 'Almacenamiento de Datos',
-      img: 'https://apser.es/uploads_clon/Imported_Blog_Media/mejor-almacenamiento-en-la-nube--5.jpg',
+      img: 'https://www.tesselar.mx/hubfs/Portadas-para-Blog-almacenamiento-en-la-nube.jpg',
       description: 'Herramientas  para  almacenamiento  de  datos  como:  imágenes,  videos,  archivos grandes.',
       descriptionComplete: `Servicio gestionado en el que te proporcionaremos acceso a una plataforma de 
       almacenamiento de datos`
@@ -33,7 +33,7 @@ export class PurchaseComponent implements OnInit {
     },
     {
       title: 'Presentación de Datos',
-      img: 'https://rockcontent.com/es/wp-content/uploads/sites/3/2020/09/Qu%C3%A9-es-la-visualizaci%C3%B3n-de-datos.png',
+      img: 'https://img.remediosdigitales.com/58351e/56397d9c-d9cc-4625-8276-138210176860_what-is-fundamental-analysis_-1-/450_1000.jpeg',
       description: 'Herramientas para la presentación de los datos.',
       descriptionComplete: `Revisa a fondo tus datos y elabora estrategias comerciales más eficientes, renueva  constantemente tus fórmulas comerciales 
       con estas excelentes herramientas de visualización.`
